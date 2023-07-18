@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luiza de Sousa Carvalho - Desenvolvedora Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">LC</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#designs">Meus designs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá,</p>
+          <h1>Sou a Luiza Carvalho</h1>
+          <h2>Desenvolvedora Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/luiza-de-sousa-carvalho-71664b16b/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5586999785258" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/luizalsc" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/luizalsc" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box">
+            <img src="src/imagens/perfil-2.png" alt="foto de perfil da Luiza" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="designs">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus designs</h2>
+        </div>
+      </div> 
+      <div class="container-projetos">
+        <div class="projeto">
+               
+          <a href="https://www.figma.com/proto/9xO3BJTBStp8AV0GeLN6wc/Landing-Page-Pink-Orange?node-id=0%3A1" target="_blank">
+            <img src="./src/imagens/desing-pink-orange.png" alt="Pink Orange" />
+            <h3>Pink Orange</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto conceitual de landing page</p>
+              <p>🔗 Ver no Figma</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://www.figma.com/proto/U1XhhSkcMiOkgsBW4Z0yYz/Sentier-Landing-Page?node-id=0%3A1" target="_blank">
+            <img src="./src/imagens/sentier.png" alt="Sentier" />
+            <h3>Sentier</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto conceitual de landing page</p>
+              <p>🔗 Ver no Figma</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://www.figma.com/file/bQwpKYEpmY2QjOJ8j3fQdi/Untitled?type=design&node-id=13%3A389&mode=design&t=fyEn9oxTgAvHIPD8-1" target="_blank">
+            <img src="./src/imagens/ERP.png" alt="Formulario" />
+            <h3>ERP de Engenharia Civil</h3>
+            <div class="informacoes-projeto">
+              <p>Landing Page e Dashboard de Engenharia Civil</p>
+              <p>🔗 Ver no Figma</p>
+            </div>
+          </a>   
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://luizalsc.github.io/Stock-application/" target="_blank">
+            <img src="./src/imagens/stock-app.png" alt="Stock app" />
+            <h3>Stock App</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto feito usando React, Redux, Jest e Tailwind, o app consome uma API e retorna dados sobre ações na bolsa internacional</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">     
+          <a href="https://luizalsc.github.io/Pokedex-React/" target="_blank">
+            <img src="./src/imagens/pokedex.png" alt="Nome do projeto" />
+            <h3>Pokedex</h3>
+            <div class="informacoes-projeto">
+              <p>Aplicação feita com React, Styled Components e Context API, que utiliza uma API para buscar informações sobre pokemons, e ainda permite que o usuário mude o tema do site.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://luizalsc.github.io/quest-javascript-avancado-advice-generator/" target="_blank">
+            <img src="./src/imagens/advice-generator.png" alt="Nome do projeto" />
+            <h3>Advice Generator</h3>
+            <div class="informacoes-projeto">
+              <p>Aplicação simples que consome uma API e renderiza um conselho aleatório a cada clique no botão.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades"> 
+
+        <div class="container-habilidades">
+          
+          <div class="container-habilidades">
+          
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Cascading Style Sheets (CSS) é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou XML.</p>
+          </div>
+
+          <div class="informacoes figma">
+            <div class="logo">
+              <i class="devicon devicon-figma-plain" id="figma"></i>
+            </div>
+            <h3>Figma</h3>
+            <p>O Figma é um editor gráfico de vetor baseado na web utilizado principalmente para trabalhos de prototipagem de projetos de design.</p>
+          </div>
+
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon devicon-git-plain" id="git"></i>
+            </div>
+            <h3>Git</h3>
+            <p>É um sistema de controle de versão, permite a colaboração entre desenvolvedores sem o perigo de sobrescrição de armazenar versões anteriores da base de código de um projeto.</p>
+            </div>
+          </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>HTML (HyperText Markup Language) é o bloco de construção mais básico da Web. Ele define o significado e a estrutura do conteúdo da web.</p>
+        </div>
+
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>JavaScript (JS) é uma linguagem de programação leve, interpretada ou compilada just-in-time com funções de primeira classe.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-jest-plain" id="github"></i>
+          </div>
+          <h3>Jest</h3>
+          <p>Jest é uma estrutura de teste de JavaScript com foco na simplicidade.</p>
+        </div>
+
+        <div class="informacoes react">
+          <div class="logo">
+            <i class="devicon devicon-react-plain" id="react"></i>
+          </div>
+          <h3>React</h3>
+          <p>
+            Como afirma seu slogan oficial, React é uma biblioteca para construir interfaces de usuário. React não é um framework, nem mesmo é exclusivo da web.</p>
+        </div>
+
+        <div class="informacoes redux">
+          <div class="logo">
+            <i class="devicon devicon-redux-plain" id="react"></i>
+          </div>
+          <h3>Redux</h3>
+          <p>Redux é um conteiner de estado para aplicativos JavaScript.</p>
+        </div>
+
+        
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/luiza-de-sousa-carvalho-71664b16b/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5586999785258" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/luizalsc" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="https://instagram.com/luizalsc" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
